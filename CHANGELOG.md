@@ -1,0 +1,17 @@
+# Changelog - Serpentine's Custom Heads
+
+**TL/DR:** 1.0.0 is the first public release: 14 female heads in one `.pak` file.
+
+## 1.0.0 - 2026-10-24
+
+First public release. One file, `SerpentinesCustomHeads.pak`, module version 1.0.0.0.
+
+Heads, in head-list order: Altariel 1, Altariel 2, Ayrin, Debbie, Deborah, Dolores 1, Dolores 2, Ellen,
+Juliette, Margot, Ripley, Samantha, Undomiel 1, Undomiel 2.
+
+- Each head: female Human, Elf, Drow and Half-Elf (Half-Drow uses the Half-Elf entries); standard body; 56
+  head-list entries in all.
+- 42 thumbnails (for each head one with human, one with elf and one with half-elf ears; Drow uses the elf one),
+  pictures of the heads themselves. Each head's thumbnails are tinted with one of the game's own Human skin
+  colours; the heads' own skin colour in the game is unchanged.
+- Known limitations: `README.md`.
