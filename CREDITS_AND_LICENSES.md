@@ -5,25 +5,28 @@ download contains and what belongs to others.
 
 ## What is in `SerpentinesCustomHeads.pak`
 
-The pak holds 63 files:
+The pak holds 68 files:
 
 | Files | What they are | Whose |
 |---|---|---|
-| 42 head meshes: `HUM_F_NKD_Head_F.GR2`, `ELF_F_NKD_Head_F.GR2` and `HEL_F_NKD_Head_F.GR2` for each of the 14 heads | Each head with human, elf and half-elf ears | Derived from Larian's female head "Head F" (© Larian Studios) |
-| 14 head skeletons: `HUM_F_NKD_Head_F_Base.GR2`, one per head | The head skeleton for each head | Derived from Larian's head skeleton (© Larian Studios) |
-| One thumbnail image, `SerpentinesCustomHeads_CCIcons.dds` (2048 x 1024), holding 42 thumbnails | Pictures of the heads, tinted with the game's own Human skin colours | Made for this mod from the heads in it |
-| Two `_merged.lsf` files | Tell the game where the meshes, skeletons and thumbnails are and which of the game's materials to use | Written for this mod |
-| `CharacterCreationAppearanceVisuals.lsx` | The 56 head-list entries (14 heads x Human, Elf, Drow, Half-Elf) | Written for this mod |
+| 45 head meshes: `HUM_F_NKD_Head_F.GR2`, `ELF_F_NKD_Head_F.GR2` and `HEL_F_NKD_Head_F.GR2` for each of the 15 heads | Each head with human, elf and half-elf ears | Derived from Larian's female head "Head F" (© Larian Studios) |
+| 15 head skeletons: `HUM_F_NKD_Head_F_Base.GR2`, one per head | The head skeleton for each head | Derived from Larian's head skeleton (© Larian Studios) |
+| One thumbnail image, `SerpentinesCustomHeads_CCIcons.dds` (2048 x 1024), holding 45 thumbnails | Pictures of the heads, tinted with the game's own Human skin colours | Made for this mod from the heads in it |
+| One normal map, `SCH_HUM_F_NKD_Head_F_NM_WENDY.DDS`, for Wendy | The texture that shapes how light falls on her skin (its relief) | Derived from Larian's Head F normal map (its layout and fine skin detail), with Wendy's own relief added for this mod |
+| Two `_merged.lsf` files | Tell the game where the meshes, skeletons, thumbnails and Wendy's normal map are and which of the game's materials to use; for Wendy, three copies of the game's Head F materials that differ only in using her normal map | Written for this mod; the material copies are Larian's |
+| `CharacterCreationAppearanceVisuals.lsx` | The 60 head-list entries (15 heads x Human, Elf, Drow, Half-Elf) | Written for this mod |
 | `SerpentinesCustomHeads_CCIcons.lsx` | Which thumbnail belongs to which head | Written for this mod |
 | `meta.lsx` | Name, version and author of the mod | Written for this mod |
-| One `.loca` file (English) | The 14 head names | Written for this mod |
+| One `.loca` file (English) | The 15 head names | Written for this mod |
 
-**Not in the download:** skin textures of any kind, or any file from another mod.
+**Not in the download:** skin colour, make-up or eyebrow textures, or any file from another mod. Besides the thumbnails,
+the only texture is Wendy's normal map (above).
 
 ## Larian Studios - the base (included in derived form)
 
 Every head is derived from Larian's "Head F" and uses Larian's skin, make-up, eyebrow and eye materials,
-skeleton layout and animation. These files are included solely to extend Baldur's Gate 3 as a mod. All rights in
+skeleton layout and animation. Wendy's normal map is derived from Larian's Head F normal map, and her three
+materials are copies of Larian's Head F materials. These files are included solely to extend Baldur's Gate 3 as a mod. All rights in
 the original game files remain with Larian Studios and its licensors. This mod is not affiliated with or endorsed
 by Larian Studios.
 
@@ -48,5 +51,5 @@ base remain Larian's.
 
 ## Summary
 
-The download bundles no third-party program, tool or skin texture. The only third-party material in it is
-Larian's head and skeleton in derived form.
+The download bundles no third-party program or tool. The only third-party material in it is Larian's head,
+skeleton and Head F materials, and, for Wendy, Larian's Head F normal map, in derived form.

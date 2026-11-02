@@ -1,6 +1,20 @@
 # Changelog - Serpentine's Custom Heads
 
-**TL/DR:** 1.0.0 is the first public release: 14 female heads in one `.pak` file.
+**TL/DR:** 1.1.0 adds a fifteenth head, Wendy, with her own normal map; the 14 heads of 1.0.0 are unchanged. 1.0.0 was
+the first public release: 14 female heads in one `.pak` file.
+
+## 1.1.0 - 2026-11-02
+
+Same file name and same mod as 1.0.0 (`SerpentinesCustomHeads.pak`), module version 1.1.0.0. It replaces 1.0.0.
+
+- Added **Wendy**, the fifteenth head (female Human, Elf, Drow and Half-Elf; Half-Drow uses the Half-Elf entries;
+  standard body). She comes last in the head list.
+- Wendy has her own normal map (the texture that shapes how light falls on the skin). Her skin colour, make-up and
+  eyebrows are the game's own, as for the other heads.
+- Now 15 heads, 60 head-list entries and 45 thumbnails. Wendy's thumbnails are tinted with one of the game's Human
+  skin colours that no other head in the mod uses.
+- The 14 heads of 1.0.0 and their head-list entries are unchanged; their thumbnails show the same pictures in the
+  same places.
 
 ## 1.0.0 - 2026-10-24
 

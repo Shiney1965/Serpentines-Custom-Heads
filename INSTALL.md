@@ -15,7 +15,7 @@ second, delete the file last.
 
 | File | Contents |
 |---|---|
-| `SerpentinesCustomHeads.pak` | All 14 heads (Altariel 1, Altariel 2, Ayrin, Debbie, Deborah, Dolores 1, Dolores 2, Ellen, Juliette, Margot, Ripley, Samantha, Undomiel 1, Undomiel 2) and their thumbnails |
+| `SerpentinesCustomHeads.pak` | All 15 heads (Altariel 1, Altariel 2, Ayrin, Debbie, Deborah, Dolores 1, Dolores 2, Ellen, Juliette, Margot, Ripley, Samantha, Undomiel 1, Undomiel 2, Wendy) and their thumbnails |
 
 ## Install with BG3 Mod Manager
 
@@ -36,9 +36,9 @@ overwrites your change.
 ## Check that it worked
 
 1. New Game, character creation. Choose a **female Human, Elf, Drow, Half-Elf or Half-Drow** with the **standard body**.
-2. Open the Head list. You should find 14 new entries, each with its own thumbnail: Altariel 1, Altariel 2,
+2. Open the Head list. You should find 15 new entries, each with its own thumbnail: Altariel 1, Altariel 2,
    Ayrin, Debbie, Deborah, Dolores 1, Dolores 2, Ellen, Juliette, Margot, Ripley, Samantha, Undomiel 1,
-   Undomiel 2.
+   Undomiel 2, Wendy.
 3. Elf and Drow show the heads with elf ears, Half-Elf and Half-Drow with half-elf ears, Human with human ears.
    (Half-Drow is a kind of Half-Elf in the game and uses the Half-Elf heads; it has no entries of its own.)
 
@@ -55,6 +55,9 @@ other races.
 4. **Save** and **Export** the load order. This also rewrites the mod's name stored in the load order, so no old
    name is left behind. Do not edit `modsettings.lsx` by hand.
 
+Version 1.1.0 is the same mod as 1.0.0 with one head added (Wendy), so it replaces the 1.0.0 file: keep only one
+`SerpentinesCustomHeads.pak` in the `Mods` folder. The 14 heads of 1.0.0 are unchanged.
+
 ## Removing the mod
 
 1. **Give every character that uses one of these heads another head, and save.**
@@ -69,4 +72,4 @@ Keep this order. If the load order still lists a mod whose file is gone, the gam
 
 | File | Bytes | SHA-256 |
 |---|---:|---|
-| `SerpentinesCustomHeads.pak` (1.0.0) | 25,338,405 | `6FC929F846F58BD1769E96EB695E25CBB20286AD525BFF0766120D568A5ECF2A` |
+| `SerpentinesCustomHeads.pak` (1.1.0) | 31,898,405 | `C4CE4E0692477581455E8A7309B48368CC6D4F60740D49D095934147D1D54C33` |
