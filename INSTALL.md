@@ -15,7 +15,7 @@ second, delete the file last.
 
 | File | Contents |
 |---|---|
-| `SerpentinesCustomHeads.pak` | All 15 heads (Altariel 1, Altariel 2, Ayrin, Debbie, Deborah, Dolores 1, Dolores 2, Ellen, Juliette, Margot, Ripley, Samantha, Undomiel 1, Undomiel 2, Wendy) and their thumbnails |
+| `SerpentinesCustomHeads.pak` | All 16 heads (Altariel 1, Altariel 2, Ayrin, Debbie, Deborah, Dolores 1, Dolores 2, Ellen, Juliette, Margot, Ripley, Samantha, Undomiel 1, Undomiel 2, Ursula, Wendy) and their thumbnails |
 
 ## Install with BG3 Mod Manager
 
@@ -36,9 +36,9 @@ overwrites your change.
 ## Check that it worked
 
 1. New Game, character creation. Choose a **female Human, Elf, Drow, Half-Elf or Half-Drow** with the **standard body**.
-2. Open the Head list. You should find 15 new entries, each with its own thumbnail: Altariel 1, Altariel 2,
-   Ayrin, Debbie, Deborah, Dolores 1, Dolores 2, Ellen, Juliette, Margot, Ripley, Samantha, Undomiel 1,
-   Undomiel 2, Wendy.
+2. Open the Head list. You should find 16 new entries, each with its own thumbnail (listed here alphabetically):
+   Altariel 1, Altariel 2, Ayrin, Debbie, Deborah, Dolores 1, Dolores 2, Ellen, Juliette, Margot, Ripley,
+   Samantha, Undomiel 1, Undomiel 2, Ursula, Wendy.
 3. Elf and Drow show the heads with elf ears, Half-Elf and Half-Drow with half-elf ears, Human with human ears.
    (Half-Drow is a kind of Half-Elf in the game and uses the Half-Elf heads; it has no entries of its own.)
 
@@ -55,8 +55,8 @@ other races.
 4. **Save** and **Export** the load order. This also rewrites the mod's name stored in the load order, so no old
    name is left behind. Do not edit `modsettings.lsx` by hand.
 
-Version 1.1.0 is the same mod as 1.0.0 with one head added (Wendy), so it replaces the 1.0.0 file: keep only one
-`SerpentinesCustomHeads.pak` in the `Mods` folder. The 14 heads of 1.0.0 are unchanged.
+Version 1.2.0 is the same mod as 1.0.0 and 1.1.0, now with Ursula added (Wendy came in 1.1.0), so it replaces the 1.0.0 or
+1.1.0 file: keep only one `SerpentinesCustomHeads.pak` in the `Mods` folder. The 15 heads of 1.1.0 are unchanged.
 
 ## Removing the mod
 
@@ -72,4 +72,4 @@ Keep this order. If the load order still lists a mod whose file is gone, the gam
 
 | File | Bytes | SHA-256 |
 |---|---:|---|
-| `SerpentinesCustomHeads.pak` (1.1.0) | 31,898,405 | `C4CE4E0692477581455E8A7309B48368CC6D4F60740D49D095934147D1D54C33` |
+| `SerpentinesCustomHeads.pak` (1.2.0) | 33,691,698 | `CBC7ADFC218CB191936BBD47296F0B04681DE8C5FF6905FE00BB4E60D1F7A780` |

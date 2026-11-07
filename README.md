@@ -1,14 +1,14 @@
 # Serpentine's Custom Heads
 
-**TL/DR:** Fifteen new female heads for character creation in Baldur's Gate 3, in one `.pak` file. They are
+**TL/DR:** Sixteen new female heads for character creation in Baldur's Gate 3, in one `.pak` file. They are
 offered to female Human, Elf, Drow, Half-Elf and Half-Drow characters with the standard body. No Script Extender
 and no other mod is needed. Every head is built on the game's own female head, so the skin colour, make-up,
-eyebrow and eye textures and the animation are the game's own. Wendy, new in 1.1.0, also has her own normal map
-(the texture that shapes how light falls on the skin); the other 14 heads use the game's.
+eyebrow and eye textures and the animation are the game's own. Ursula is new in 1.2.0. Wendy also has her own normal
+map (the texture that shapes how light falls on the skin); the other 15 heads, Ursula included, use the game's.
 
 ## What this is
 
-One file, `SerpentinesCustomHeads.pak`, adds 15 entries to the Head list in character creation. Nothing in the
+One file, `SerpentinesCustomHeads.pak`, adds 16 heads to the Head list in character creation. Nothing in the
 game is replaced, and no existing character is changed. Each head has its own thumbnail in the head list.
 
 | Head-list name | In short |
@@ -27,15 +27,16 @@ game is replaced, and no existing character is changed. Each head has its own th
 | Samantha | |
 | Undomiel 1 | |
 | Undomiel 2 | Undomiel 1 with a narrower mouth |
-| Wendy | New in 1.1.0. Has her own normal map |
+| Ursula | New in 1.2.0 |
+| Wendy | Has her own normal map |
 
-The heads appear in the head list in this order: Altariel 1, Altariel 2, Ayrin, Debbie, Deborah, Dolores 1,
-Dolores 2, Ellen, Juliette, Margot, Ripley, Samantha, Undomiel 1, Undomiel 2, Wendy.
+The heads, listed alphabetically: Altariel 1, Altariel 2, Ayrin, Debbie, Deborah, Dolores 1, Dolores 2, Ellen,
+Juliette, Margot, Ripley, Samantha, Undomiel 1, Undomiel 2, Ursula, Wendy.
 
 ## Who can use them
 
 - **Female Human, Elf, Drow and Half-Elf characters with the standard body.** Each head has one head-list entry
-  for each of these four races, 60 entries in all.
+  for each of these four races, 64 entries in all.
 - **Half-Drow characters too:** in the game Half-Drow is a kind of Half-Elf, so it uses the Half-Elf heads and has
   no entries of its own.
 - Elf and Drow characters get elf ears, Half-Elf and Half-Drow characters half-elf ears, Human characters human
@@ -46,7 +47,7 @@ Dolores 2, Ellen, Juliette, Margot, Ripley, Samantha, Undomiel 1, Undomiel 2, We
 ## What it does not add
 
 - No skin colour, make-up, tattoo, scar or eyebrow textures: these are the game's own. The one texture of its own
-  besides the thumbnails is Wendy's normal map, which gives her skin its relief; the other 14 heads use the game's.
+  besides the thumbnails is Wendy's normal map, which gives her skin its relief; the other 15 heads use the game's.
 - No new eyeballs, teeth, lashes or hair. These are the game's own parts.
 - No change to any existing head, character, companion or NPC.
 
@@ -71,9 +72,9 @@ load-order position is needed. Full steps, and how to update from an earlier cop
 ## Choosing a head
 
 - **New character:** in character creation, pick a female Human, Elf, Drow, Half-Elf or Half-Drow with the
-  standard body and open the Head list. The 15 heads are listed by the names above.
-- **Your own custom character later in the game:** the Magic Mirror in camp lists the same 15 heads.
-- **Companions and hirelings:** the game's Magic Mirror does not change them.
+  standard body and open the Head list. The 16 heads are listed by the names above.
+- **Your own custom character later in the game:** the Magic Mirror in camp lists the same 16 heads.
+- **Origin companions:** the game's Magic Mirror does not change them.
 
 ## Compatibility
 
@@ -134,7 +135,7 @@ Portions of the materials used are property of Wizards of the Coast.
 
 ## Version history
 
-See `CHANGELOG.md`. First public release: 1.0.0, 2026-10-24. This version: 1.1.0, which adds Wendy.
+See `CHANGELOG.md`. First public release: 1.0.0, 2026-10-24. This version: 1.2.0, which adds Ursula.
 
 ## Reporting a problem
 

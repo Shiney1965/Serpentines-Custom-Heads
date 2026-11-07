@@ -5,19 +5,19 @@ download contains and what belongs to others.
 
 ## What is in `SerpentinesCustomHeads.pak`
 
-The pak holds 68 files:
+The pak holds 72 files:
 
 | Files | What they are | Whose |
 |---|---|---|
-| 45 head meshes: `HUM_F_NKD_Head_F.GR2`, `ELF_F_NKD_Head_F.GR2` and `HEL_F_NKD_Head_F.GR2` for each of the 15 heads | Each head with human, elf and half-elf ears | Derived from Larian's female head "Head F" (© Larian Studios) |
-| 15 head skeletons: `HUM_F_NKD_Head_F_Base.GR2`, one per head | The head skeleton for each head | Derived from Larian's head skeleton (© Larian Studios) |
-| One thumbnail image, `SerpentinesCustomHeads_CCIcons.dds` (2048 x 1024), holding 45 thumbnails | Pictures of the heads, tinted with the game's own Human skin colours | Made for this mod from the heads in it |
+| 48 head meshes: `HUM_F_NKD_Head_F.GR2`, `ELF_F_NKD_Head_F.GR2` and `HEL_F_NKD_Head_F.GR2` for each of the 16 heads | Each head with human, elf and half-elf ears | Derived from Larian's female head "Head F" (© Larian Studios) |
+| 16 head skeletons: `HUM_F_NKD_Head_F_Base.GR2`, one per head | The head skeleton for each head | Derived from Larian's head skeleton (© Larian Studios) |
+| One thumbnail image, `SerpentinesCustomHeads_CCIcons.dds` (2048 x 1024), holding 48 thumbnails | Pictures of the heads, tinted with the game's own Human skin colours | Made for this mod from the heads in it |
 | One normal map, `SCH_HUM_F_NKD_Head_F_NM_WENDY.DDS`, for Wendy | The texture that shapes how light falls on her skin (its relief) | Derived from Larian's Head F normal map (its layout and fine skin detail), with Wendy's own relief added for this mod |
 | Two `_merged.lsf` files | Tell the game where the meshes, skeletons, thumbnails and Wendy's normal map are and which of the game's materials to use; for Wendy, three copies of the game's Head F materials that differ only in using her normal map | Written for this mod; the material copies are Larian's |
-| `CharacterCreationAppearanceVisuals.lsx` | The 60 head-list entries (15 heads x Human, Elf, Drow, Half-Elf) | Written for this mod |
+| `CharacterCreationAppearanceVisuals.lsx` | The 64 head-list entries (16 heads x Human, Elf, Drow, Half-Elf) | Written for this mod |
 | `SerpentinesCustomHeads_CCIcons.lsx` | Which thumbnail belongs to which head | Written for this mod |
 | `meta.lsx` | Name, version and author of the mod | Written for this mod |
-| One `.loca` file (English) | The 15 head names | Written for this mod |
+| One `.loca` file (English) | The 16 head names | Written for this mod |
 
 **Not in the download:** skin colour, make-up or eyebrow textures, or any file from another mod. Besides the thumbnails,
 the only texture is Wendy's normal map (above).
